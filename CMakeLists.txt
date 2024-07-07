@@ -4,7 +4,7 @@ project(cobs-c LANGUAGES C)
 
 add_library(cobs-c STATIC
     "cobs.c"
-    "cobsr.c
+    "cobsr.c"
 )
 
 target_include_directories(cobs-c PUBLIC .)
